@@ -2,7 +2,7 @@ import * as crypto from 'crypto'
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm'
 import { Audit } from '../../CommonsModule/entity'
 
-Entity()
+@Entity()
 export class User extends Audit{
 
     @PrimaryGeneratedColumn('increment')
